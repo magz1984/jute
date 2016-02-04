@@ -1,0 +1,102 @@
+
+<script src="http://localhost/projects/magento/jute/skin/frontend/Kartparadigm/default/js/jquery.min-1.11.1.js"></script>  
+<script type="text/javascript">
+/* toTop Button start*/
+        var jqTop=$.noConflict();
+        jqTop(document).ready(function(){
+          jqTop(function() {
+                jqTop(window).scroll(function() {
+                if(jqTop(this).scrollTop() > 300) {
+                    jqTop('#toTop').fadeIn();   
+                } else {
+                    jqTop('#toTop').fadeOut();
+                }
+            });
+               jqTop('#toTop').click(function() {
+                jqTop('body,html').animate({scrollTop:0},500);
+            });   
+            });
+          });
+          /* toTop Button end*/
+</script>
+
+ 
+ 
+ 
+ 
+<style type="text/css">
+.footer-info{
+text-align: center;
+}
+</style>
+
+<div class="footer-container">
+    	   
+    <div class="footer-info">
+        <div class="row clearfix ">
+
+            <div class="grid_3"><a href="#" class="block-control"></a>
+                            <h4>Customer Service</h4>
+                <div style="" class="block-content clearfix">
+               <ul>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/customer-service/?___SID=U">Customer Service</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/sales/guest/form/?___SID=U">Orders and Returns</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/customer-service/?___SID=U">Shipping and Delivery</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/catalog/seo_sitemap/category/?___SID=U">Sitemap</a></li>
+                </ul>    
+                </div>
+                        </div>
+
+            <div class="grid_3"><a href="#" class="block-control"></a>
+                            <h4>About Us</h4>
+                <div style="" class="block-content clearfix">
+                 <ul>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/about-magento-demo-store/?___SID=U">About Us</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/privacy-policy-cookie-restriction-mode/?___SID=U">Privacy Policy</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/contacts/?___SID=U">Contact Us</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/customer-service/?___SID=U">Shopping Infos</a></li>	
+                </ul>    
+                </div>
+                
+                        </div>
+            <div class="grid_3 "><a href="#" class="block-control"></a>
+	            <h4>New Products</h4>
+<div style="" class="block-content clearfix">
+<ul>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/#/?___SID=U">Textlink</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/#/?___SID=U">Textlink</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/#/?___SID=U">Textlink</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/#/?___SID=U">Textlink</a></li>
+                </ul>    
+</div>
+                        </div>
+            <div class="grid_3"><a href="#" class="block-control"></a>
+	            <h4>Popular</h4>
+<div style="" class="block-content clearfix">
+<ul>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/#/?___SID=U">Textlink</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/#/?___SID=U">Textlink</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/#/?___SID=U">Textlink</a></li>
+                	<li><a href="http://localhost/projects/magento/jute/index.php/#/?___SID=U">Textlink</a></li>
+                </ul>  
+</div>            </div>
+
+        </div>
+    </div>
+        <footer class="row clearfix">
+        <div class="grid_6">
+            <address>&copy; 2015 Magento Demo Store. All Rights Reserved.</address>
+        </div>
+        <div class="grid_6">
+            
+<ul class="links">
+	                <li ><a href="javascript:void(0);">About Us</a></li> |
+                    <li><a href="javascript:void(0);">Delivery &amp; Returns</a></li> |
+                    <li><a href="javascript:void(0);">Terms &amp; Conditions</a></li> |
+                    <li><a href="javascript:void(0);">Contact Us</a></li> 
+</ul>
+                        </div>
+    </footer>
+</div>
+
+<a style="display: inline;"  id="toTop"><span style="opacity: 0;" id="toTopHover"></span>To Top</a>
